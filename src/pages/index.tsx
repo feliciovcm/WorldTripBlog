@@ -1,6 +1,7 @@
 import { Flex, Divider } from "@chakra-ui/react";
 import React from "react";
 import { Banner } from "../components/Banner";
+import { Carousel } from "../components/Carousel";
 import { Header } from "../components/Header";
 import { TravelCard } from "../components/TravelCard";
 
@@ -18,6 +19,7 @@ export default function Home() {
         bg="#47585B"
         h="2px"
       />
+      <Carousel />
     </Flex>
   );
 }
